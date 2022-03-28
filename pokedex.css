@@ -1,0 +1,118 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/fondo.jpg);
+    background-size: cover;
+}
+.pokedex{
+    position: absolute;
+    left: calc((100% / 2) - 352px);
+    top: calc((100% / 2) - 250px);
+    width: 705px;
+    height: 500px;
+    background-image: url(./img/pokedex.png);
+    background-size: cover;
+}
+.pokenumero{
+    position: absolute;
+    left: 235px;
+    top: 125px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+}
+.pokenombre{
+    position: absolute;
+    left: 235px;
+    top: 155px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: bold;
+    font-size: 25px;
+}
+.imgpoke{
+    position: absolute;
+    left: calc((100% / 2) - 75px);
+    top: 45px;
+    width: 150px;
+    height: 150px;
+}
+input{
+    position: absolute;
+    left: calc((100% / 2) - 105px);
+    bottom: 35px;
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    background-color: transparent;
+    font-size: 15px;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    border: none;
+    border-bottom: white 2px solid ;
+}
+button{
+    position: absolute;
+    right: 59px;
+    bottom: 85px;
+    border-radius: 50%;
+    background: rgb(156,198,74);
+    background: linear-gradient(0deg, rgba(156,198,74,1) 41%, rgba(121,122,117,1) 100%);
+    width: 75px;
+    height: 75px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+p{
+    text-transform: uppercase;
+}
+.sub{
+    color: white;
+    font-family: 'Geo', sans-serif;
+    font-size: 18px;
+}
+.postipo{
+    position: absolute;
+    left: 240px;
+    bottom: 160px;
+}
+.posabi1{
+    position: absolute;
+    left: 240px;
+    bottom: 140px;
+}
+.posabi2{
+    position: absolute;
+    left: 315px;
+    bottom: 120px;
+}
+.poshp{
+    position: absolute;
+    left: 240px;
+    bottom: 100px;
+}
+.posspeed{
+    position: absolute;
+    left: 340px;
+    bottom: 100px;
+}
+.posattack{
+    position: absolute;
+    left: 240px;
+    bottom: 80px;
+}
+.posattack2{
+    position: absolute;
+    left: 340px;
+    bottom: 80px;
+}
+.posdefense{
+    position: absolute;
+    left: 240px;
+    bottom: 60px;
+}
+.posdefense2{
+    position: absolute;
+    left: 340px;
+    bottom: 60px;
+}
